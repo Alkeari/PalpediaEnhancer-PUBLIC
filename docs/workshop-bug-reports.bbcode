@@ -1,0 +1,43 @@
+[h1]Bug Reports[/h1]
+Post bugs in this thread only. One bug per reply, so each can be tracked and answered. Questions and suggestions belong in their own threads.
+
+[h2]Before you post[/h2]
+[olist]
+    [*]Make sure UE4SS Experimental (Palworld) is subscribed and enabled, and that Palpedia Enhancer is enabled under Options > Mod Management.
+    [*]Restart Palworld once. Mods install on launch, not on subscribe.
+    [*]Check whether the bug still happens with every other mod disabled. If it goes away, say which mod brings it back.
+[/olist]
+
+[h2]Turn on verbose logging[/h2]
+Open [noparse]Steam\steamapps\workshop\content\1623730\3788253343\Assets\Settings.ini[/noparse] in Notepad, change the VerboseLogging line to:
+[code]VerboseLogging=true[/code]
+Restart Palworld, reproduce the bug, then close the game. Turn it back to false afterwards; it makes the log large.
+
+[h2]What to include[/h2]
+Copy this template into your reply and fill in every line:
+[code]
+Mod version:        (Options > Mod Management, or the first Palpedia Enhancer line in UE4SS.log)
+Palworld version:   (bottom left of the title screen, for example v1.0.3.101283)
+Where:              (singleplayer / co-op host / co-op client / dedicated server client)
+Other mods:         (the full list, or "none")
+Language:           (the game language you play in)
+What I did:         (step by step, starting from opening the Palpedia)
+What happened:
+What I expected:
+Log:                (link to the file, see below)
+[/code]
+
+[h2]The log[/h2]
+The file is [noparse]Steam\steamapps\common\Palworld\Mods\NativeMods\UE4SS\UE4SS.log[/noparse]. It is overwritten every launch, so copy it right after the bug happens. Steam comments strip long pastes, so upload the whole file to a paste site or file host and link it. Do not paste only the lines you think matter: the cause is usually earlier than the symptom.
+
+[h2]If the game crashed[/h2]
+Also attach the newest folder from [noparse]%LocalAppData%\Pal\Saved\Crashes[/noparse]. The file [noparse]CrashContext.runtime-xml[/noparse] inside it names the exact line at fault. If that file does not mention [noparse]PalpediaEnhancer[/noparse] or [noparse]main.dll[/noparse], the crash is most likely from something else, but post it anyway and it will be checked.
+
+[h2]What happens next[/h2]
+Confirmed bugs are fixed in a PATCH update, listed in the Change Notes tab. A reply in this thread will say which version carries the fix. Reports missing the log or the version are answered with a request for them before anything else.
+
+[h2]Not bugs[/h2]
+[list]
+    [*]"Palpedia Enhancer turned itself off" in UE4SS.log after a Palworld update: that is the mod protecting your game until it is updated for the new build. Watch the Change Notes.
+    [*]Buttons in English while the game is in another language: a missing translation falls back to English on purpose. Post the language and the button in the Translations thread instead.
+[/list]

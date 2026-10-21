@@ -1,0 +1,52 @@
+# Build output
+build/
+Binaries/
+Intermediate/
+out/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# xmake (UE4SS C++ mods build with xmake)
+.xmake/
+
+# CMake, if used instead
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# IDE and local machine state
+.idea/
+.vs/
+.vscode/
+*.user
+*.VC.db
+*.VC.opendb
+
+# Support folders (never built or committed)
+/.REFERENCE/
+/.Assets/
+
+# UE4SS runtime output, if a test install is symlinked in
+UE4SS.log
+*.dmp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Uploader metadata never lives in the repo; it stays in the Workshop item folder
+.workshop.json
+
+# Built mod binary, produced by tools/deploy.ps1
+dlls/
+
+# Empty scaffolding folder
+Intermediates/
+
+# Python bytecode
+__pycache__/
+

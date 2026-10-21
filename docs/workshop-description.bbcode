@@ -1,0 +1,52 @@
+[h1]Palpedia Enhancer[/h1]
+[b]Search, sort and filter the Palpedia, and clear the notification dot in seconds.[/b]
+
+The Palpedia marks Pals you have not looked at yet, but gives you no way to find them. On a full Palpedia, and especially with mods that add Pal variants, clearing that dot means scrolling the whole list. This mod fixes that and adds the filtering, sorting and search the screen should have had.
+
+[hr][/hr]
+
+[h2]Features[/h2]
+[list]
+    [*][b]New only[/b]: press Ctrl+N anywhere in the Palpedia to show just the entries you have not opened.
+    [*][b]Filter[/b] by element, work suitability, ownership (unowned, owned, owned 5+) and discovery (undiscovered, seen, caught). Filters combine.
+    [*][b]Search[/b] by Name, Drops, Ranch or Desc, in any combination. Ranch lists only Pals that produce the item when assigned to a ranch.
+    [*][b]Sort[/b] by name, element, work type, discovery or ownership, unread first, ascending or descending. Default is the game's own numbering.
+    [*]Everything respects everything else: a search result is always inside the active filters and in the active sort order.
+    [*]Built from the game's own buttons, font and sounds, so it looks like it belongs.
+    [*]Fully localized: all 17 languages Palworld ships.
+[/list]
+
+[h2]Works everywhere[/h2]
+Entirely client-side. Singleplayer, co-op (other players do not need it), and any dedicated server, including ones you do not run. Nothing is sent to the server.
+
+[h2]Requirements[/h2]
+[list]
+    [*]Palworld on Steam. Game Pass and Microsoft Store builds are not supported.
+    [*]UE4SS Experimental (Palworld), from the Workshop:
+[/list]
+https://steamcommunity.com/sharedfiles/filedetails/?id=3625223587
+
+[h2]Settings[/h2]
+Edit [noparse]Assets\Settings.ini[/noparse] inside the mod folder (it is replaced when the mod updates):
+[list]
+    [*][b]ToggleUnreadKey[/b] (default Ctrl+N): the New-only hotkey. A-Z, 0-9, F1-F12, with optional Ctrl+ / Shift+ / Alt+. None unbinds.
+    [*][b]ClearAllKey[/b] (default None): clears every filter, sort and search target at once.
+    [*][b]RememberState[/b] (default true): keep your filters, sort and search targets while the game runs.
+    [*][b]VerboseLogging[/b] (default false): extra detail in UE4SS.log for bug reports.
+[/list]
+
+[h2]Typing shortcuts[/h2]
+A prefix in the search field picks one target for that query: [noparse]name:[/noparse], [noparse]drops:[/noparse], [noparse]ranch:[/noparse], [noparse]desc:[/noparse]. Example: [code]ranch:wool[/code]
+
+[h2]Known limitations[/h2]
+[list]
+    [*]Keyboard and mouse. UE4SS mods do not run on controller-only setups.
+    [*]After a Palworld update the mod may switch itself off until it is updated. It writes why to UE4SS.log and never crashes your game.
+    [*]Translations were written by the author, not native speakers. Corrections are welcome in the Discussions tab.
+[/list]
+
+[h2]Bug reports[/h2]
+Use the pinned [b]Bug Reports[/b] thread in the Discussions tab. It tells you exactly what to include; reports without a log usually cannot be acted on.
+
+[h2]License[/h2]
+Alkeari License Agreement v2.2, included in the mod folder. This Workshop page and the Nexus Mods page are the only official downloads. Please do not mirror or repackage.

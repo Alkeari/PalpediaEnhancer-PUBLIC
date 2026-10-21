@@ -1,0 +1,26 @@
+{
+  "ModName": "Palpedia Enhancer",
+  "PackageName": "PalpediaEnhancer",
+  "Thumbnail": "thumbnail.png",
+  "Version": "1.12.0",
+  "DebugMode": false,
+  "MinRevision": 82182,
+  "Author": "Alkeari",
+  "Dependencies": [
+    "UE4SSExperimentalPW"
+  ],
+  "Tags": [
+    "UE4SS",
+    "User Interface",
+    "Utilities"
+  ],
+  "InstallRule": [
+    {
+      "Type": "Lua",
+      "Targets": [
+        "./dlls",
+        "./Assets"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "product": "UE4SS Experimental (Palworld)",
+      "kind": "steam-workshop",
+      "id": "3625223587",
+      "role": "release"
+    },
+    {
+      "product": "UE4SS Experimental (Palworld)",
+      "kind": "nexus",
+      "id": "palworld/2237",
+      "role": "release"
+    },
+    {
+      "product": "UE4SS Experimental (Palworld)",
+      "kind": "github-releases",
+      "id": "Okaetsu/RE-UE4SS",
+      "role": "release"
+    },
+    {
+      "product": "UE4SS Experimental (Palworld)",
+      "kind": "github-issues",
+      "id": "Okaetsu/RE-UE4SS",
+      "role": "feedback"
+    },
+    {
+      "product": "RE-UE4SS",
+      "kind": "github-releases",
+      "id": "UE4SS-RE/RE-UE4SS",
+      "role": "preview"
+    },
+    {
+      "product": "RE-UE4SS",
+      "kind": "github-issues",
+      "id": "UE4SS-RE/RE-UE4SS",
+      "role": "feedback"
+    },
+    {
+      "product": "UE4SS Experimental (Palworld)",
+      "kind": "steam-workshop-comments",
+      "id": "3625223587",
+      "role": "feedback"
+    }
+  ]
+}
